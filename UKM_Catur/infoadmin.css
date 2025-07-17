@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+  }
+
+table{
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table tr td {
+  max-width: 700px;
+  padding: 5px;
+}
