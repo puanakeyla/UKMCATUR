@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0F0F0F;
+    color: white;
+}
+
+
+.lomba {
+    width: 48%; /* Lebar setiap elemen */
+    margin: 1%; /* Margin untuk jarak */
+    float: left; /* Mengapung ke kiri */
+    box-sizing: border-box; /* Menyertakan padding dan border dalam lebar */
+  }
+  
+  .lomba img {
+    width: 430px; /* Gambar mengambil lebar penuh elemen */
+    height: 286x; /* Tinggi gambar menyesuaikan secara otomatis */
+    display: block; /* Menghilangkan jarak di bawah gambar */
+    margin: 0 auto; /* Memusatkan gambar */
+  }
+  
+  .lomba h3 {
+    text-align: left; /* Judul di tengah */
+    margin-top: 10px; /* Jarak atas judul */
+    max-width: 426px;
+  }
+  
+  .lomba p {
+    text-align: justify; /* Paragraf di tengah */
+    margin-bottom: 10px; /* Jarak bawah paragraf */
+    color: #8e8e8e;
+  }
+  
+  .lomba .date {
+    text-align: right ;
+    color: #b1b1b1 ;
+  }
+  
+  .clear {
+    clear: both; /* Membersihkan floating */
+  }
+
+  .lomba h3, .lomba p, .lomba .isi .lomba .date{
+    margin-left: 130px;
+    max-width: 400px;
+    line-height: 45px; 
+  }
+

@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+
+.container {
+  flex-wrap: wrap; /* Membuat elemen turun ke baris baru jika ruang tidak cukup */
+  justify-content: space-between; /* Memberikan jarak antar elemen */
+  margin-top: 10px;
+  width: 90%;
+}
+.lomba {
+  width: 48%; /* Lebar setiap elemen */
+  margin: 1%; /* Margin untuk jarak */
+  float: left; /* Mengapung ke kiri */
+  box-sizing: border-box; /* Menyertakan padding dan border dalam lebar */
+}
+
+.lomba img {
+  max-width: 250px; /* Gambar mengambil lebar penuh elemen */
+  max-height: 300px; /* Tinggi gambar menyesuaikan secara otomatis */
+  display: block; /* Menghilangkan jarak di bawah gambar */
+  margin: 0 auto; /* Memusatkan gambar */
+}
+
+.lomba h5 {
+  text-align: left; /* Judul di tengah */
+  margin-top: 10px; /* Jarak atas judul */
+  max-width: 426px;
+}
+
+.lomba p {
+  text-align: justify; /* Paragraf di tengah */
+  margin-bottom: 10px; /* Jarak bawah paragraf */
+  color: #8e8e8e;
+  font-size: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.lomba .date {
+  text-align: right;
+  color: #b1b1b1;
+  font-size: 15px;
+}
+
+.clear {
+  clear: both; /* Membersihkan floating */
+}
+
+.lomba h5,
+.lomba p,
+.lomba .date {
+  margin-left: 130px;
+  max-width: 250px;
+  line-height: 45px;
+}
