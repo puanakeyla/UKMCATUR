@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.login-button {
+  background-color: #e26a2d;
+  color: white;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 34px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-button a {
+  text-decoration: none;
+  color: white;
+}
+.login-button a:hover {
+  color: #e26a2d;
+}
+
+.navbar .login-btn:hover {
+  background-color: #e26a2d;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #ffffff;
+  color: #e26a2d;
+}
+
+.content {
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 20px;
+  padding-bottom: 150px;
+}
+.content p {
+  font-size: medium;
+  padding-top: 5px;
+}
+.content h5 {
+  padding-top: 20px;
+}
+
+.content h1 {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.content .isi {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  border: 0;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.media .fa-brand {
+  width: 10px;
+}
+
+footer {
+  background-image: url("img/footer.png");
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 100px;
+}
+
+/* css selengkapnya */
+.container {
+  display: flex;
+  margin: 50px;
+  align-items: center;
+}
+
+.container .text {
+  margin-left: 50px;
+  max-width: 700px;
+  text-align: justify;
+}
